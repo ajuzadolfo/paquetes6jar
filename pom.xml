@@ -13,9 +13,9 @@
     
      <distributionManagement>
         <repository>
-            <id>github-ajuz</id>
+            <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/ajuzadolfo/paquetes6</url>
+            <url>https://maven.pkg.github.com/ajuzadolfo/paquetes6jar</url>
         </repository>
     </distributionManagement>
 </project>
