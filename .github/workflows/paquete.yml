@@ -18,7 +18,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.AJUZ_TOKEN}}
         run: |
           mvn -B deploy:deploy-file \
-            -Dfile=./paquete6-1.0.jar \
+            -Dfile=./paquete6-1.1.jar \
             -DpomFile=./pom.xml \
             -DrepositoryId=github \
             -Durl=https://maven.pkg.github.com/ajuzadolfo/paquetes6jar \
